@@ -1,0 +1,126 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+h2, h4 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/* Container */
+.container {
+  max-width: 400px;
+  margin: 30px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Balance */
+h1 {
+  font-size: 2rem;
+  margin: 10px 0;
+  text-align: center;
+}
+
+/* Income & Expenses */
+.inc-exp-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.inc-exp-container div {
+  background-color: #f1f1f1;
+  padding: 10px;
+  border-radius: 5px;
+  width: 45%;
+  text-align: center;
+}
+
+.money {
+  font-size: 1.2rem;
+}
+
+.plus {
+  color: #2ecc71;
+}
+
+.minus {
+  color: #c0392b;
+}
+
+/* Transaction List */
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.list li {
+  background-color: #f9f9f9;
+  margin: 10px 0;
+  padding: 10px;
+  border-left: 5px solid;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list .plus {
+  border-color: #2ecc71;
+}
+
+.list .minus {
+  border-color: #c0392b;
+}
+
+/* Delete Button */
+.delete-btn {
+  background: transparent;
+  border: none;
+  color: #e74c3c;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  opacity: 0.7;
+}
+
+/* Add Transaction Form */
+.form-control {
+  margin-bottom: 20px;
+}
+
+.form-control label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-control input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.btn {
+  width: 100%;
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #2980b9;
+}
